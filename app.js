@@ -2,7 +2,7 @@ var chat= document.getElementById("chat_window");
 var msg= document.getElementById("messagebox");
 
 
-var socket= new WebSocket("ws://localhost:8000");
+var socket= new WebSocket("ws://localhost");
 
 var open= false;
 
